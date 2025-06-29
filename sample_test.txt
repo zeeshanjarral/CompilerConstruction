@@ -1,0 +1,11 @@
+// Simple test program
+agar (_count < 10) {
+    _result =:= _count + 3.14;
+    _valid_id =:= true;
+} magar {
+    _value =:= -2.5E+10;
+}
+
+// This will cause errors:
+invalidID    // no underscore - ERROR
+3.14E       // incomplete number - ERROR
